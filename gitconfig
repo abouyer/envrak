@@ -1,0 +1,54 @@
+[user]
+name = "Antoine Bouyer"
+email = an2ane.bouyer@gmail.com 
+
+[color]
+ui = auto
+
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
+
+[alias]
+lol = log --decorate --oneline --abbrev-commit --date-order --graph
+loli = log --decorate --pretty=format:'%h : %an : %s' --date-order --graph
+lola = log --pretty=format:'%C(yellow)%h : %C(cyan)%an : %Creset%s' --date-order --graph --all
+lp = log -p
+st = status
+cp = cherry-pick
+fp = format-patch
+ba = branch -a
+cae = commit --amend --no-edit
+lsh = log --pretty=format:'%C(yellow)%h %Cred%ad %C(cyan)%an%Cgreen%d %Creset%s' --date=short
+
+[merge]
+toold = vimdiff
+
+[difftool]
+prompt = false
+	
+[diff]
+tool = vimdiff
+
+[rebase]
+autosquash = true
+
+[core]
+editor = vim
+autoclrf = false
+eol = lf
+autocrlf = false
+gitproxy = gitproxy.sh
+
+[http]
+proxy = "http://<proxy-name>:911/"
+
+[https]
+proxy = "http://<proxy-name>:912/"
+
+[sendemail]
+smtpEncryption = tls
+smtpServer = smtp.gmail.com
+smtpUser = an2ane.bouyer@gmail.com
+smtpServerPort = 587
