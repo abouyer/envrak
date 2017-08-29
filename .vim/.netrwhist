@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/abouyer/workspace_agl/meta-agl/templates/feature/agl-devel'
+let g:netrw_dirhist_2='/home/abouyer/VirtualECULinux'
+let g:netrw_dirhist_3='/home/abouyer/linux/sound/soc'
+let g:netrw_dirhist_4='/home/abouyer/linux/sound/soc/codecs'
